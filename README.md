@@ -33,6 +33,7 @@ pip install psycopg2-binary
 
 2.) Open PostgreSQL shell:  
     psql -U postgres
+    
 Create database and table:
 
 CREATE DATABASE tcp_app;
@@ -44,7 +45,8 @@ CREATE TABLE received_data (
     received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-How to Run
+How to Run:
+
 1️.) Start the TCP Server
 
 Open a terminal and navigate to the project folder:
