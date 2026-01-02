@@ -12,12 +12,12 @@ The client sends messages to the server, which stores them in a database. This p
 - Easy-to-run Python scripts
 - Works on Windows, Linux, and macOS
 
+
 ## Folder Structure
-tcp_server-client/
-│
-├── tcp_server.py # Server: listens for clients & stores data in DB
-├── tcp_client.py # Client: sends messages to server
-├── README.md # Project documentation
+-tcp_server-client:
+ ->tcp_server.py (Server): listens for clients & stores data in DB.
+ ->tcp_client.py (Client): sends messages to server.
+ ->README.md: Project documentation.
 
 ## Requirements
 - Python 3.x
